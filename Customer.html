@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Customer.css"></link>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+  <title>Registration Form</title>
+  <script src="Customer.js"></script>
+ </head>
+ <body>
+
+ 	<div class = "wrapper">
+		<div class = "main">
+		<h1>Customer Details</h1>
+		<form  onsubmit="validateInput()" name="form">
+		<div class="form-control">
+			<p><input type = "text"  name="fname" placeholder="First Name"></p>
+		</div>
+		<div class="form-control">
+			<p><input type = "text"  name="lname" placeholder="Last  Name"></p>
+
+			</div>
+		<div class="form-control">
+			<p><input type = "text"  name="address" placeholder="Address"></p>
+
+		</div>
+		<div class="form-control">
+			<p><input type = "text"  name="city" placeholder="City"></p>
+
+		</div>
+		<div class="form-control">
+			<p><input type = "text"  name="state" placeholder="State"></p>
+
+		</div>
+		<div class="form-control">
+			<p><input type = "number" name="zipcode" placeholder="Zip Code"></p>
+
+		</div>
+		<div class="form-control">
+			<p><input type = "number" name="mobile" placeholder="Phone"></p>
+		</div>
+		<div class="form-control">
+			<p><input type = "email" name="uid" placeholder="Email"></p>
+		</div>
+			<div class = "bot">
+				<p><input type = "submit" value = "Register" class = "btn f1"></p>
+			</div>
+			</form>
+		</div>
+	</div>
+ </body>
+</html>
